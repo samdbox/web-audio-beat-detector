@@ -9,9 +9,9 @@
     },
     "dependencies": {
         "@babel/runtime": "^7.13.17",
+        "@samdbox/web-audio-beat-detector-worker": "^0.1.0",
         "tslib": "^2.2.0",
-        "web-audio-beat-detector-broker": "^4.0.45",
-        "web-audio-beat-detector-worker": "^5.2.5"
+        "web-audio-beat-detector-broker": "^4.0.45"
     },
     "description": "A beat detection utility which is using the Web Audio API.",
     "devDependencies": {
