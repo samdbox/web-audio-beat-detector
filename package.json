@@ -1,19 +1,12 @@
 {
-    "author": "Christoph Guttandin",
     "bugs": {
-        "url": "https://github.com/chrisguttandin/web-audio-beat-detector/issues"
+        "url": "https://github.com/samdbox/web-audio-beat-detector/issues"
     },
     "config": {
         "commitizen": {
             "path": "cz-conventional-changelog"
         }
     },
-    "contributors": [
-        {
-            "email": "magallania@gmail.com",
-            "name": "Darío Hereñú"
-        }
-    ],
     "dependencies": {
         "@babel/runtime": "^7.13.17",
         "tslib": "^2.2.0",
@@ -74,7 +67,6 @@
         "build/es5/",
         "src/"
     ],
-    "homepage": "https://github.com/chrisguttandin/web-audio-beat-detector",
     "husky": {
         "hooks": {
             "commit-msg": "commitlint --edit --extends @commitlint/config-angular",
@@ -84,15 +76,18 @@
     "license": "MIT",
     "main": "build/es5/bundle.js",
     "module": "build/es2019/module.js",
-    "name": "web-audio-beat-detector",
+    "name": "@samdbox/web-audio-beat-detector",
     "repository": {
         "type": "git",
-        "url": "https://github.com/chrisguttandin/web-audio-beat-detector.git"
+        "url": "https://github.com/samdbox/web-audio-beat-detector.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     },
     "scripts": {
         "prepublishOnly": "grunt build",
         "test": "grunt lint && grunt test"
     },
     "types": "build/es2019/module.d.ts",
-    "version": "8.1.6"
+    "version": "0.1.0"
 }
